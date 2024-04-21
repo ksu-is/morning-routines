@@ -9,3 +9,15 @@ def display_morning_menu():
     print("4. Breakfast")
     print("5. Take a Shower")
     print("6. Quit")
+def create_morning_routine():
+    routine = []
+    while continue = True:
+        display_morning_menu()
+        choice = input("Enter the number corresponding to your choice: ")
+        if choice == '6':
+            continue = False
+        elif choice in ['1', '2', '3', '4', '5']:
+            routine.append(choice)
+        else:
+            print("Invalid choice! Please select a number from the menu.")
+    return routine
