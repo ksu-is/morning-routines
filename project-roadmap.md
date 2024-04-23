@@ -10,12 +10,14 @@ This file provides an overview in the direction the project is heading. The road
 
 ## Coding
 ### Logic
-- [ ] Create the psuedocode for the logic of project as necessary
-- [ ] Code the main logic of the project
+- [X] Create the psuedocode for the logic of project as necessary
+- [X] Code the main logic of the project
 - [ ] Fix small errors as they arise
+- [ ] Add a feature for making night routines as well
+- [ ] Add a feature to allow the user to pick a random routine or make their own routine from the menu
 - This milestone will be done when all functions and logic are made
 ### User Interaction
-- [ ] Create the psuedocode for how the user will interact with the program
+- [X] Create the psuedocode for how the user will interact with the program
 - [ ] Develop how the user will interact with the program (input/prompts/etc)
 - This milestone will be done when the program takes user input
 ## Debugging
