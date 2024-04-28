@@ -29,6 +29,18 @@ def create_morning_routine():
         else:
             print("Invalid choice! Please select a number from the menu.")
     return routine
+def create_night_routine():
+    routine = []
+    while True:
+        display_night_menu()
+        choice = input("Enter the number corresponding to your choice: ")
+        if choice == '6':
+            break
+        elif choice in ['1', '2', '3', '4', '5']:
+            routine.append(choice)
+        else:
+            print("Invalid choice! Please select a number from the menu.")
+    return routine
  print("Let's create your morning routine.")
 routine = create_morning_routine()
 print("Your morning routine:")
