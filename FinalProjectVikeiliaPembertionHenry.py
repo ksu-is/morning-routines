@@ -9,6 +9,14 @@ def display_morning_menu():
     print("4. Breakfast")
     print("5. Take a Shower")
     print("6. Quit")
+def display_night_menu():
+    print("Night Routine Menu:")
+    print("1. Brush Teeth")
+    print("2. Prepare Clothes for Tomorrow")
+    print("3. Journal")
+    print("4. Set Alarm")
+    print("5. Read")
+    print("6. Quit")
 def create_morning_routine():
     routine = []
     while continue = True:
