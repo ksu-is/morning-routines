@@ -41,19 +41,20 @@ def create_night_routine():
         else:
             print("Invalid choice! Please select a number from the menu.")
     return routine
-print("Let's create your morning routine.")
-routine = create_morning_routine()
-print("Your morning routine:")
-count = 1
-for task in routine:
-    if task == '1':
-        print(str(count) + ". Exercise")
-    elif task == '2':
-        print(str(count) + ". Meditate")
-    elif task == '3':
-        print(str(count) + ". Read")
-    elif task == '4':
-        print(str(count) + ". Breakfast")
-    elif task == '5':
-        print(str(count) + ". Take a Shower")
-    count += 1
+if morn == '1':
+        print("Let's create your morning routine.")
+        routine = create_morning_routine()
+        print("Your morning routine:")
+        count = 1
+        for task in routine:
+            if task == '1':
+                print(str(count) + ". Exercise")
+            elif task == '2':
+                print(str(count) + ". Meditate")
+            elif task == '3':
+                print(str(count) + ". Read")
+            elif task == '4':
+                print(str(count) + ". Breakfast")
+            elif task == '5':
+                print(str(count) + ". Take a Shower")
+            count += 1
