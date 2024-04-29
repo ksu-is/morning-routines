@@ -58,3 +58,22 @@ if morn == '1':
             elif task == '5':
                 print(str(count) + ". Take a Shower")
             count += 1
+elif morn == '2':
+        print("Let's create your night routine.")
+        routine = create_night_routine()
+        print("Your night routine:")
+        count = 1
+        for task in routine:
+            if task == '1':
+                print(str(count) + ". Brush Teeth")
+            elif task == '2':
+                print(str(count) + ". Prepare Clothes for Tomorrow")
+            elif task == '3':
+                print(str(count) + ". Journal")
+            elif task == '4':
+                print(str(count) + ". Set Alarm")
+            elif task == '5':
+                print(str(count) + ". Read")
+            count += 1
+else:
+    print("Invalid choice! Please select either '1' for morning routine or '2' for night routine.")
