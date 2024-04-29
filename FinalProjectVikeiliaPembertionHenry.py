@@ -18,13 +18,12 @@ def display_night_menu():
     print("5. Read")
     print("6. Quit")
 def create_morning_routine():
-    continue = True
     routine = []
-    while continue == True:
+    while True:
         display_morning_menu()
         choice = input("Enter the number corresponding to your choice: ")
         if choice == '6':
-            continue = False
+            break
         elif choice in ['1', '2', '3', '4', '5']:
             routine.append(choice)
         else:
